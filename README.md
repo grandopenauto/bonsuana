@@ -13,13 +13,13 @@ A playful, premium, pink-and-iridescent landing page for the Bonsuana Juice bran
 - Signature Original blend: equal parts tart cherry juice, orange juice, cranberry-raspberry lemonade, and horchata.
 - Interactive ingredient explorer; concept ideas Free Bird and Doves Return clearly marked as not for sale.
 - Business concept sections for pop-ups, events, hospitality, and collaborations.
-- Inquiry composer that opens the visitor's email application or copies their drafted message.
+- Inquiry composer that opens a prefilled Gmail web draft in the visitor's browser or copies their drafted message.
 - Metadata, canonical URL, sitemap, favicon, robots instructions, and web app manifest.
 - No required JavaScript build step or package dependencies.
 
 ## Important prelaunch checks
 
-**1. Test inquiry reception.** The owner created bonsuanajuice@gmail.com, now set as BONSUANA_CONTACT_EMAIL in app.js and displayed publicly on the site. Inbox delivery has not been independently tested as part of this build. Send an inquiry from another mailbox, use the form to open an email draft, press Send, and verify the message arrives. The form does not send messages itself; it opens the visitor's email app. Do not interpret its status message as proof of delivery.
+**1. Test inquiry reception.** The owner created bonsuanajuice@gmail.com, now set as BONSUANA_CONTACT_EMAIL in app.js and displayed publicly on the site. Inbox delivery has not been independently tested as part of this build. Send an inquiry from another mailbox, use the form to open a Gmail web draft, press Send, and verify the message arrives in Inbox or Spam. The form does not send messages itself; it opens Gmail's web composer. Use the direct mailto link for visitors who prefer a non-Gmail app; use Copy inquiry if web compose doesn't work. Do not interpret the website's status message as proof of delivery.
 
 **2. Product and compliance.** The original recipe is based on a previously established concept, not a final standardized commercially produced or shelf-stable product. Horchata may contain dairy or nuts, depending on preparation. Confirm final ingredients, preparation/handling standards, allergen statements, required food permits, commercial permissions, and labeling before selling or advertising availability.
 
@@ -37,7 +37,7 @@ A playful, premium, pink-and-iridescent landing page for the Bonsuana Juice bran
 - assets/bonsuana-bottle.svg — original illustration
 - assets/favicon.svg — brand icon
 
-No contact data is saved by this website or uploaded to a database. Form entry only becomes an email if the visitor explicitly sends it from their own email app.
+No contact data is saved by this website or uploaded to a Bonsuana database. Form entry becomes an email only if the visitor explicitly sends it through Gmail or their own email app. When Gmail opens, the prefilled contents are supplied to Google in the Gmail compose URL; do not type sensitive personal information into the contact form.
 
 ## Future expansion
 
