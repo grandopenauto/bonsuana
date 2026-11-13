@@ -19,7 +19,7 @@ A playful, premium, pink-and-iridescent landing page for the Bonsuana Juice bran
 
 ## Important prelaunch checks
 
-**1. Confirm the bookings inbox.** In app.js the BONSUANA_CONTACT_EMAIL constant is provisionally set to hello@bonsuana.com. This address has NOT been verified or provisioned as part of the website build. Create/confirm the inbox, or replace it with a working business address before advertising inquiry intake. The form does not send messages itself; it opens the visitor's email app. Do not interpret its status message as proof of delivery.
+**1. Test inquiry reception.** The owner created bonsuanajuice@gmail.com, now set as BONSUANA_CONTACT_EMAIL in app.js and displayed publicly on the site. Inbox delivery has not been independently tested as part of this build. Send an inquiry from another mailbox, use the form to open an email draft, press Send, and verify the message arrives. The form does not send messages itself; it opens the visitor's email app. Do not interpret its status message as proof of delivery.
 
 **2. Product and compliance.** The original recipe is based on a previously established concept, not a final standardized commercially produced or shelf-stable product. Horchata may contain dairy or nuts, depending on preparation. Confirm final ingredients, preparation/handling standards, allergen statements, required food permits, commercial permissions, and labeling before selling or advertising availability.
 
