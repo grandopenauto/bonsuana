@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 780" role="img" aria-labelledby="title desc">
+<title id="title">Bonsuana Original — concept bottle illustration</title>
+<desc id="desc">An iridescent pink and lavender beverage bottle with a bold Bonsuana wordmark, glowing stars and juicy pink liquid.</desc>
+<defs>
+ <radialGradient id="a"><stop stop-color="#ffb7e1" stop-opacity=".9"/><stop offset=".55" stop-color="#ff7dc0" stop-opacity=".42"/><stop offset="1" stop-color="#fc7dbe" stop-opacity="0"/></radialGradient>
+ <linearGradient id="b" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#fff" stop-opacity=".8"/><stop offset=".16" stop-color="#f3beeb" stop-opacity=".7"/><stop offset=".4" stop-color="#9db9ff" stop-opacity=".8"/><stop offset=".65" stop-color="#ffe6f3"/><stop offset=".84" stop-color="#bd8cda"/><stop offset="1" stop-color="#fff"/></linearGradient>
+ <linearGradient id="juice" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#8f124c"/><stop offset=".16" stop-color="#dd2367"/><stop offset=".5" stop-color="#ff5e9c"/><stop offset=".84" stop-color="#bd235f"/><stop offset="1" stop-color="#701342"/></linearGradient>
+ <linearGradient id="glass" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#fff" stop-opacity=".45"/><stop offset=".13" stop-color="#fff" stop-opacity=".05"/><stop offset=".72" stop-color="#fff" stop-opacity=".01"/><stop offset=".94" stop-color="#fff" stop-opacity=".53"/><stop offset="1" stop-color="#fff" stop-opacity=".7"/></linearGradient>
+ <linearGradient id="label" x1=".1" y1="0" x2=".92" y2="1"><stop stop-color="#ffdaf0"/><stop offset=".19" stop-color="#fff7fd"/><stop offset=".42" stop-color="#ffc2e3"/><stop offset=".68" stop-color="#b7c7ff"/><stop offset=".83" stop-color="#ffb5c6"/><stop offset="1" stop-color="#fef0fb"/></linearGradient>
+ <linearGradient id="cap" x1="0" y1="0" x2="0" y2="1"><stop stop-color="#fff5ff"/><stop offset=".28" stop-color="#d9c6e6"/><stop offset=".6" stop-color="#8d7ca5"/><stop offset=".86" stop-color="#eee2f7"/><stop offset="1" stop-color="#a98aaf"/></linearGradient>
+ <filter id="shadow" x="-55%" y="-25%" width="210%" height="170%"><feGaussianBlur stdDeviation="21"/></filter>
+ <filter id="glow"><feGaussianBlur stdDeviation="8"/></filter>
+ <clipPath id="bottleclip"><rect x="244" y="173" width="231" height="502" rx="55"/></clipPath>
+</defs>
+<circle cx="360" cy="362" r="318" fill="url(#a)"/>
+<ellipse cx="371" cy="711" rx="186" ry="29" fill="#381442" opacity=".35" filter="url(#shadow)"/>
+<g fill="none" stroke="#fff" stroke-opacity=".32"><circle cx="368" cy="361" r="293"/><circle cx="368" cy="361" r="255" stroke-dasharray="4 14"/><circle cx="368" cy="361" r="351" stroke-opacity=".15"/></g>
+<g fill="#fff4b7">
+<path d="M136 160l7 22 22 7-22 7-7 22-7-22-22-7 22-7z"/><path d="M560 101l7 20 20 7-20 7-7 20-7-20-20-7 20-7z"/><path d="M557 524l10 32 32 10-32 10-10 32-10-32-32-10 32-10z"/><path d="M132 520l5 15 15 5-15 5-5 15-5-15-15-5 15-5z"/></g>
+<g transform="rotate(-10 359 430)">
+ <rect x="282" y="110" width="154" height="80" rx="23" fill="url(#cap)" stroke="#fff" stroke-opacity=".78" stroke-width="3"/>
+ <path d="M294 125h130M294 141h130M294 159h130M294 176h130" stroke="#fef2ff" stroke-opacity=".38" stroke-width="3"/>
+ <rect x="273" y="173" width="172" height="36" rx="16" fill="url(#cap)"/>
+ <rect x="243" y="185" width="233" height="490" rx="56" fill="url(#juice)" stroke="#fff1fa" stroke-opacity=".7" stroke-width="6"/>
+ <g clip-path="url(#bottleclip)"><path d="M235 258c62-24 114 14 170-8s85-9 100-15v-91H235z" fill="#ffd3e6" opacity=".12"/><path d="M238 565c86 31 123-22 238 0v128H238z" fill="#6c0c46" opacity=".28"/>
+ <rect x="244" y="185" width="232" height="492" fill="url(#glass)"/>
+ <path d="M270 220c-22 122-13 285-3 380" fill="none" stroke="#fff" stroke-width="12" opacity=".27" stroke-linecap="round"/>
+ <path d="M456 241c7 120 4 279-2 375" fill="none" stroke="#fff" stroke-width="8" opacity=".32" stroke-linecap="round"/>
+ <rect x="244" y="293" width="232" height="285" rx="10" fill="url(#label)"/>
+ <path d="M250 315c68 26 122-13 214 7M250 544c73-34 130 7 217-19" fill="none" stroke="#fff" stroke-width="7" opacity=".35"/>
+ <path d="M234 332c64 42 109-19 164 16s92-6 118 17" fill="none" stroke="#85dcff" opacity=".25" stroke-width="28"/>
+ <path d="M240 515c64-30 97 20 160-6s65-4 96 5" fill="none" stroke="#f97abe" opacity=".25" stroke-width="28"/>
+ <text x="360" y="348" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" letter-spacing="5" font-weight="800" fill="#8a315b">THE ORIGINAL</text>
+ <path d="M360 365l4 14 14 4-14 4-4 14-4-14-14-4 14-4z" fill="#b33171"/>
+ <text x="360" y="428" text-anchor="middle" font-family="Arial Black,Arial,sans-serif" font-size="35" font-weight="900" letter-spacing="-1" fill="#38132e">BONSUANA</text>
+ <text x="360" y="455" text-anchor="middle" font-family="Arial,sans-serif" font-size="13" font-weight="800" letter-spacing="5" fill="#8b336a">JUICE</text>
+ <path d="M285 478h150" stroke="#853b78" stroke-opacity=".35"/>
+ <text x="360" y="502" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="2" fill="#703560">TASTE THE EVOLUTION</text>
+ <text x="360" y="516" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="800" letter-spacing="2" fill="#703560">OF AWESOME</text>
+ <circle cx="331" cy="545" r="4" fill="#b52e6b"/><circle cx="350" cy="545" r="4" fill="#ef955f"/><circle cx="369" cy="545" r="4" fill="#ea5e91"/><circle cx="388" cy="545" r="4" fill="#9e92bd"/>
+ </g>
+ <path d="M267 619c0 24 19 38 37 40" stroke="#fff" opacity=".2" stroke-width="5" fill="none" stroke-linecap="round"/>
+</g>
+<g transform="translate(111 340) rotate(-18)"><circle r="61" fill="#a81e5f"/><circle r="50" fill="#e93880"/><circle r="35" fill="#ff8bb8" opacity=".38"/><path d="M0-40c-8-15 1-22 8-28M0-40c11-11 18-11 29-6" fill="none" stroke="#9bf1a9" stroke-width="7" stroke-linecap="round"/><path d="M-16 13q18 17 35-3" fill="none" stroke="#ffd5e4" stroke-opacity=".65" stroke-width="5" stroke-linecap="round"/></g>
+<g transform="translate(561 343) rotate(23)"><circle r="55" fill="#ffb74b"/><circle r="44" fill="#ffe3a6"/><circle r="37" fill="#ffac4a"/><path d="M0-37v74M-37 0h74M-26-26l52 52M26-26l-52 52" stroke="#ffedae" stroke-width="3" opacity=".88"/><circle r="8" fill="#ffe6ae"/></g>
+<g fill="#fff"><circle cx="174" cy="106" r="3"/><circle cx="591" cy="224" r="4"/><circle cx="160" cy="628" r="3"/><circle cx="520" cy="703" r="3"/></g>
+</svg>
