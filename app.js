@@ -101,11 +101,14 @@ if (form) {
       showStatus("Our booking email is not yet active. Use 'copy your inquiry' to save the details.");
       return;
     }
-    const url = "mailto:" + encodeURIComponent(BONSUANA_CONTACT_EMAIL) +
-      "?subject=" + encodeURIComponent(inquiry.subject) +
+    // GitHub Pages cannot transmit email itself. Open Gmail's web composer with
+    // prefilled fields; the visitor must deliberately click Send.
+    const url = "https://mail.google.com/mail/?view=cm&fs=1" +
+      "&to=" + encodeURIComponent(BONSUANA_CONTACT_EMAIL) +
+      "&su=" + encodeURIComponent(inquiry.subject) +
       "&body=" + encodeURIComponent(inquiry.body);
-    showStatus("Your email app should open. Please review and press Send; nothing has been sent automatically.");
-    window.location.href = url;
+    showStatus("Opening Gmail. Review your draft and click Send. Nothing has been sent automatically.");
+    window.location.assign(url);
   });
 }
 if (copyButton) {
