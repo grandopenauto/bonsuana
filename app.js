@@ -1,7 +1,7 @@
 "use strict";
 
-// Launch configuration: confirm this inbox can receive messages before promoting event bookings.
-const BONSUANA_CONTACT_EMAIL = "hello@bonsuana.com";
+// Address provided by the brand owner. The form creates an email draft, not a backend submission.
+const BONSUANA_CONTACT_EMAIL = "bonsuanajuice@gmail.com";
 
 const navToggle = document.querySelector(".menu-toggle");
 const navLinks = document.querySelector("#nav-links");
